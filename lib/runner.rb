@@ -40,8 +40,9 @@ PLEASE READ http://semver.org
 
     # Create a new .semver file if the file does not exist.
     command :initialize, :init do
+      force = false
       file = SemVer.file_name
-      if File.exist? file
+      if File.exist? file && !force
         puts "#{file} already exists"
       else
         version = SemVer.new
