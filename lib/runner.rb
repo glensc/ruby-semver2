@@ -1,5 +1,5 @@
-require 'semver'
-require 'dsl'
+require_relative 'semver'
+require_relative 'dsl'
 
 module XSemVer
   # Contains the logic for performing SemVer operations from the command line.

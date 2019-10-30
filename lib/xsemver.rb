@@ -1,6 +1,6 @@
 require 'yaml'
-require 'semver/semvermissingerror'
-require 'pre_release'
+require_relative 'semver/semvermissingerror'
+require_relative 'pre_release'
 
 module XSemVer
   # sometimes a library that you are using has already put the class
