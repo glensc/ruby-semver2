@@ -24,7 +24,7 @@ module XSemVer
 semver commands
 ---------------
 
-init[ialze]                        # initialize semantic version tracking
+init[ialize]                       # initialize semantic version tracking
 inc[rement] major | minor | patch  # increment a specific version number
 pre[release] [STRING]              # set a pre-release version suffix
 spe[cial] [STRING]                 # set a pre-release version suffix (deprecated)
